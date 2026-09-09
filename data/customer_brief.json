@@ -1,0 +1,35 @@
+{
+  "customer": "Apex Global",
+  "problem": "Employees spend too much time searching fragmented knowledge and completing repetitive service workflows.",
+  "users": [
+    "employee",
+    "service agent",
+    "manager",
+    "platform admin"
+  ],
+  "requirements": {
+    "monthly_users": 25000,
+    "p95_latency_seconds": 5,
+    "availability_percent": 99.9,
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "sensitive_data": true,
+    "needs_private_knowledge": true,
+    "needs_actions": true
+  },
+  "systems": [
+    "CRM",
+    "Service Desk",
+    "Document Repository",
+    "Data Warehouse",
+    "Identity Provider"
+  ],
+  "constraints": [
+    "EU data residency",
+    "existing enterprise IdP",
+    "multi-cloud strategy",
+    "cost attribution by business unit"
+  ]
+}
